@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<festival name="Drumce Na Kopečku" location="Česká republika" year="2026">
+
+    <venues>
+        <venue id="v1">
+            <description>Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.</description>
+            <name>Hlavní Stage</name>
+            <capacity>5000</capacity> 
+        </venue>
+
+        <venue id="v2">
+            <description>Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.</description>
+            <name>Aréna na kopečku</name>
+            <capacity>3500</capacity> 
+        </venue>
+    </venues>
+
+    <performers>
+
+        <!-- ROCK -->
+        <performer id="p1" name="Kabát" type="music" genre="rock"/>
+        <performer id="p2" name="Divokej Bill" type="music" genre="rock"/>
+        <performer id="p3" name="Doga" type="music" genre="rock"/>
+        <performer id="p4" name="Harlej" type="music" genre="rock"/>
+        <performer id="p5" name="Škwor" type="music" genre="rock"/>
+        <performer id="p6" name="Wohnout" type="music" genre="rock"/>
+        <performer id="p7" name="Arakain" type="music" genre="metal"/>
+        <performer id="p8" name="Alkehol" type="music" genre="rock"/>
+        <performer id="p9" name="Traktor" type="music" genre="rock"/>
+        <performer id="p10" name="Olympic" type="music" genre="rock"/>
+        <performer id="p11" name="Chinaski" type="music" genre="rock"/>
+        <performer id="p12" name="Tři sestry" type="music" genre="punk"/>
+        <performer id="p13" name="Krucipüsk" type="music" genre="rock"/>
+        <performer id="p14" name="Vypsaná fiXa" type="music" genre="rock"/>
+        <performer id="p15" name="Horkýže Slíže CZ Tribute" type="music" genre="rock"/>
+
+        <!-- RAP -->
+        <performer id="p16" name="Ektor" type="music" genre="rap"/>
+        <performer id="p17" name="Rest" type="music" genre="rap"/>
+        <performer id="p18" name="Paulie Garand" type="music" genre="rap"/>
+        <performer id="p19" name="Vladimir 518" type="music" genre="rap"/>
+        <performer id="p20" name="Majk Spirit CZ Show" type="music" genre="rap"/>
+        <performer id="p21" name="Rytmus CZ Tour" type="music" genre="rap"/>
+        <performer id="p22" name="Marpo" type="music" genre="rap"/>
+        <performer id="p23" name="Refew" type="music" genre="rap"/>
+        <performer id="p24" name="Calin" type="music" genre="rap"/>
+        <performer id="p25" name="Separ CZ Live" type="music" genre="rap"/>
+
+        <!-- STUDENT & LOCAL BANDS -->
+        <performer id="p26" name="SPŠ Rockers" type="music" genre="rock"/>
+        <performer id="p27" name="Gympl Band Praha" type="music" genre="rock"/>
+        <performer id="p28" name="SOŠ Beat Crew" type="music" genre="pop"/>
+        <performer id="p29" name="Technik Sound" type="music" genre="rock"/>
+        <performer id="p30" name="Učiliště Revival" type="music" genre="rock"/>
+        <performer id="p31" name="Student Noise" type="music" genre="alternative"/>
+        <performer id="p32" name="Mladá Vlna" type="music" genre="rock"/>
+        <performer id="p33" name="Garage Band Brno" type="music" genre="rock"/>
+        <performer id="p34" name="Future Beats School" type="music" genre="hiphop"/>
+        <performer id="p35" name="Rocková Třída" type="music" genre="rock"/>
+        <performer id="p36" name="SPŠ Metal Hearts" type="music" genre="metal"/>
+        <performer id="p37" name="Akademie Muzika" type="music" genre="pop"/>
+        <performer id="p38" name="Jam Session SOU" type="music" genre="rock"/>
+        <performer id="p39" name="Beatmakers CZU" type="music" genre="hiphop"/>
+        <performer id="p40" name="Hudební Gymnázium Band" type="music" genre="rock"/>
+        <performer id="p41" name="Street Sound School" type="music" genre="hiphop"/>
+        <performer id="p42" name="Noise Factory" type="music" genre="rock"/>
+        <performer id="p43" name="Delta Music Class" type="music" genre="rock"/>
+        <performer id="p44" name="Young Guns Band" type="music" genre="rock"/>
+        <performer id="p45" name="Creative Beats" type="music" genre="pop"/>
+        <performer id="p46" name="Edu Rock Team" type="music" genre="rock"/>
+        <performer id="p47" name="SOU Rhythmics" type="music" genre="hiphop"/>
+        <performer id="p48" name="Pražský Student Sound" type="music" genre="rock"/>
+        <performer id="p49" name="Brno Beat Kids" type="music" genre="rock"/>
+        <performer id="p50" name="Ostrava Jam" type="music" genre="rock"/>
+        <performer id="p51" name="Liberec Live Class" type="music" genre="rock"/>
+        <performer id="p52" name="Plzeň Garage" type="music" genre="rock"/>
+        <performer id="p53" name="Hradec Rock School" type="music" genre="rock"/>
+        <performer id="p54" name="Olomouc Youth Band" type="music" genre="rock"/>
+        <performer id="p55" name="Zlín Music Lab" type="music" genre="rock"/>
+
+        <!-- DANCE & COMPETITIONS -->
+        <performer id="p56" name="Dance Crew Praha" type="dance"/>
+        <performer id="p57" name="Break Masters" type="dance"/>
+        <performer id="p58" name="Street Dance Academy" type="dance"/>
+        <performer id="p59" name="HipHop Battle Contest" type="competition"/>
+        <performer id="p60" name="Air Guitar Championship" type="competition"/>
+        <performer id="p61" name="Festival Drum Contest" type="competition"/>
+        <performer id="p62" name="Cheerleaders Brno" type="dance"/>
+        <performer id="p63" name="Beatbox Showdown" type="competition"/>
+        <performer id="p64" name="Modern Dance Studio" type="dance"/>
+        <performer id="p65" name="Freestyle Rap Battle" type="competition"/>
+        <performer id="p66" name="Parkour Show Team" type="show"/>
+        <performer id="p67" name="Light Show Crew" type="show"/>
+        <performer id="p68" name="Graffiti Live Art" type="show"/>
+        <performer id="p69" name="Talent Stage Contest" type="competition"/>
+        <performer id="p70" name="Dancehall Explosion" type="dance"/>
+        <performer id="p71" name="Rock Quiz Show" type="competition"/>
+        <performer id="p72" name="Student DJ Contest" type="competition"/>
+        <performer id="p73" name="Acoustic Corner Jam" type="music" genre="acoustic"/>
+        <performer id="p74" name="Indie Waves" type="music" genre="indie"/>
+        <performer id="p75" name="Electro Hill Project" type="music" genre="electronic"/>
+
+    </performers>
+
+    <program>
+
+        <!-- DAY 1 – ROCK -->
+        <day date="2026-07-10" theme="Rock Day">
+            <event id="e1" performer="p26" venue="v2" start="12:00" end="12:40"/>
+            <event id="e2" performer="p27" venue="v2" start="13:00" end="13:40"/>
+            <event id="e3" performer="p1" venue="v1" start="14:00" end="15:00"/>
+            <event id="e4" performer="p56" venue="v2" start="15:00" end="15:20"/>
+            <event id="e5" performer="p2" venue="v1" start="15:30" end="16:30"/>
+            <event id="e6" performer="p3" venue="v1" start="17:00" end="18:00"/>
+            <event id="e7" performer="p60" venue="v2" start="17:00" end="17:30"/>
+            <event id="e8" performer="p4" venue="v1" start="18:30" end="19:30"/>
+            <event id="e9" performer="p5" venue="v1" start="20:00" end="21:00"/>
+            <event id="e10" performer="p6" venue="v1" start="21:30" end="22:30"/>
+            <event id="e11" performer="p7" venue="v1" start="23:00" end="00:00"/>
+            <event id="e12" performer="p12" venue="v1" start="00:15" end="01:15"/>
+            <event id="e13" performer="p71" venue="v2" start="20:00" end="20:30"/>
+            <event id="e14" performer="p28" venue="v2" start="16:00" end="16:40"/>
+            <event id="e15" performer="p29" venue="v2" start="18:00" end="18:40"/>
+            <event id="e16" performer="p30" venue="v2" start="19:00" end="19:40"/>
+            <event id="e17" performer="p31" venue="v2" start="21:00" end="21:40"/>
+            <event id="e18" performer="p32" venue="v2" start="22:00" end="22:40"/>
+            <event id="e19" performer="p33" venue="v2" start="23:00" end="23:40"/>
+            <event id="e20" performer="p34" venue="v2" start="00:00" end="00:40"/>
+            <event id="e21" performer="p35" venue="v2" start="01:00" end="01:40"/>
+            <event id="e22" performer="p8" venue="v1" start="16:30" end="17:30"/>
+        </day>
+
+        <!-- DAY 2 – RAP -->
+        <day date="2026-07-11" theme="Rap Day">
+            <event id="e23" performer="p36" venue="v2" start="12:00" end="12:40"/>
+            <event id="e24" performer="p16" venue="v1" start="13:00" end="14:00"/>
+            <event id="e25" performer="p59" venue="v2" start="14:00" end="14:30"/>
+            <event id="e26" performer="p17" venue="v1" start="14:30" end="15:30"/>
+            <event id="e27" performer="p18" venue="v1" start="16:00" end="17:00"/>
+            <event id="e28" performer="p57" venue="v2" start="16:00" end="16:20"/>
+            <event id="e29" performer="p19" venue="v1" start="17:30" end="18:30"/>
+            <event id="e30" performer="p22" venue="v1" start="19:00" end="20:00"/>
+            <event id="e31" performer="p65" venue="v2" start="19:00" end="19:30"/>
+            <event id="e32" performer="p21" venue="v1" start="20:30" end="21:30"/>
+            <event id="e33" performer="p24" venue="v1" start="22:00" end="23:00"/>
+            <event id="e34" performer="p25" venue="v1" start="23:30" end="00:30"/>
+            <event id="e35" performer="p23" venue="v1" start="00:45" end="01:45"/>
+            <event id="e36" performer="p37" venue="v2" start="13:00" end="13:40"/>
+            <event id="e37" performer="p38" venue="v2" start="15:00" end="15:40"/>
+            <event id="e38" performer="p39" venue="v2" start="17:00" end="17:40"/>
+            <event id="e39" performer="p40" venue="v2" start="18:00" end="18:40"/>
+            <event id="e40" performer="p41" venue="v2" start="20:00" end="20:40"/>
+            <event id="e41" performer="p42" venue="v2" start="21:00" end="21:40"/>
+            <event id="e42" performer="p63" venue="v2" start="22:00" end="22:30"/>
+            <event id="e43" performer="p70" venue="v2" start="23:00" end="23:20"/>
+            <event id="e44" performer="p72" venue="v2" start="00:00" end="00:30"/>
+        </day>
+
+        <!-- DAY 3 – MIX -->
+        <day date="2026-07-12" theme="Open Mix Day">
+            <event id="e45" performer="p43" venue="v2" start="12:00" end="12:40"/>
+            <event id="e46" performer="p44" venue="v2" start="13:00" end="13:40"/>
+            <event id="e47" performer="p9" venue="v1" start="14:00" end="15:00"/>
+            <event id="e48" performer="p64" venue="v2" start="14:00" end="14:20"/>
+            <event id="e49" performer="p10" venue="v1" start="15:30" end="16:30"/>
+            <event id="e50" performer="p11" venue="v1" start="17:00" end="18:00"/>
+            <event id="e51" performer="p66" venue="v2" start="17:00" end="17:20"/>
+            <event id="e52" performer="p13" venue="v1" start="18:30" end="19:30"/>
+            <event id="e53" performer="p14" venue="v1" start="20:00" end="21:00"/>
+            <event id="e54" performer="p15" venue="v1" start="21:30" end="22:30"/>
+            <event id="e55" performer="p73" venue="v2" start="18:00" end="18:40"/>
+            <event id="e56" performer="p74" venue="v2" start="19:00" end="19:40"/>
+            <event id="e57" performer="p75" venue="v2" start="20:00" end="20:40"/>
+            <event id="e58" performer="p45" venue="v2" start="21:00" end="21:40"/>
+            <event id="e59" performer="p46" venue="v2" start="22:00" end="22:40"/>
+            <event id="e60" performer="p47" venue="v2" start="23:00" end="23:40"/>
+            <event id="e61" performer="p48" venue="v2" start="00:00" end="00:40"/>
+            <event id="e62" performer="p49" venue="v2" start="01:00" end="01:40"/>
+            <event id="e63" performer="p50" venue="v2" start="16:00" end="16:40"/>
+            <event id="e64" performer="p51" venue="v2" start="15:00" end="15:40"/>
+            <event id="e65" performer="p52" venue="v2" start="13:45" end="14:25"/>
+            <event id="e66" performer="p53" venue="v2" start="22:45" end="23:25"/>
+        </day>
+
+</program>
+
+</festival>
