@@ -1,0 +1,21 @@
+{
+  "id": "e45",
+  "day": "2026-07-12",
+  "theme": "Open Mix Day",
+  "start": "12:00",
+  "end": "12:40",
+  "performerId": "p43",
+  "venueId": "v2",
+  "performer": {
+    "id": "p43",
+    "name": "Delta Music Class",
+    "type": "music",
+    "genre": "rock"
+  },
+  "venue": {
+    "id": "v2",
+    "name": "Aréna na kopečku",
+    "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+    "capacity": 3500
+  }
+}

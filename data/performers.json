@@ -1,0 +1,441 @@
+{
+  "page": 1,
+  "pageSize": 75,
+  "totalItems": 75,
+  "totalPages": 1,
+  "items": [
+    {
+      "id": "p1",
+      "name": "Kabát",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p2",
+      "name": "Divokej Bill",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p3",
+      "name": "Doga",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p4",
+      "name": "Harlej",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p5",
+      "name": "Škwor",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p6",
+      "name": "Wohnout",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p7",
+      "name": "Arakain",
+      "type": "music",
+      "genre": "metal"
+    },
+    {
+      "id": "p8",
+      "name": "Alkehol",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p9",
+      "name": "Traktor",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p10",
+      "name": "Olympic",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p11",
+      "name": "Chinaski",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p12",
+      "name": "Tři sestry",
+      "type": "music",
+      "genre": "punk"
+    },
+    {
+      "id": "p13",
+      "name": "Krucipüsk",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p14",
+      "name": "Vypsaná fiXa",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p15",
+      "name": "Horkýže Slíže CZ Tribute",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p16",
+      "name": "Ektor",
+      "type": "music",
+      "genre": "rap"
+    },
+    {
+      "id": "p17",
+      "name": "Rest",
+      "type": "music",
+      "genre": "rap"
+    },
+    {
+      "id": "p18",
+      "name": "Paulie Garand",
+      "type": "music",
+      "genre": "rap"
+    },
+    {
+      "id": "p19",
+      "name": "Vladimir 518",
+      "type": "music",
+      "genre": "rap"
+    },
+    {
+      "id": "p20",
+      "name": "Majk Spirit CZ Show",
+      "type": "music",
+      "genre": "rap"
+    },
+    {
+      "id": "p21",
+      "name": "Rytmus CZ Tour",
+      "type": "music",
+      "genre": "rap"
+    },
+    {
+      "id": "p22",
+      "name": "Marpo",
+      "type": "music",
+      "genre": "rap"
+    },
+    {
+      "id": "p23",
+      "name": "Refew",
+      "type": "music",
+      "genre": "rap"
+    },
+    {
+      "id": "p24",
+      "name": "Calin",
+      "type": "music",
+      "genre": "rap"
+    },
+    {
+      "id": "p25",
+      "name": "Separ CZ Live",
+      "type": "music",
+      "genre": "rap"
+    },
+    {
+      "id": "p26",
+      "name": "SPŠ Rockers",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p27",
+      "name": "Gympl Band Praha",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p28",
+      "name": "SOŠ Beat Crew",
+      "type": "music",
+      "genre": "pop"
+    },
+    {
+      "id": "p29",
+      "name": "Technik Sound",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p30",
+      "name": "Učiliště Revival",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p31",
+      "name": "Student Noise",
+      "type": "music",
+      "genre": "alternative"
+    },
+    {
+      "id": "p32",
+      "name": "Mladá Vlna",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p33",
+      "name": "Garage Band Brno",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p34",
+      "name": "Future Beats School",
+      "type": "music",
+      "genre": "hiphop"
+    },
+    {
+      "id": "p35",
+      "name": "Rocková Třída",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p36",
+      "name": "SPŠ Metal Hearts",
+      "type": "music",
+      "genre": "metal"
+    },
+    {
+      "id": "p37",
+      "name": "Akademie Muzika",
+      "type": "music",
+      "genre": "pop"
+    },
+    {
+      "id": "p38",
+      "name": "Jam Session SOU",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p39",
+      "name": "Beatmakers CZU",
+      "type": "music",
+      "genre": "hiphop"
+    },
+    {
+      "id": "p40",
+      "name": "Hudební Gymnázium Band",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p41",
+      "name": "Street Sound School",
+      "type": "music",
+      "genre": "hiphop"
+    },
+    {
+      "id": "p42",
+      "name": "Noise Factory",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p43",
+      "name": "Delta Music Class",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p44",
+      "name": "Young Guns Band",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p45",
+      "name": "Creative Beats",
+      "type": "music",
+      "genre": "pop"
+    },
+    {
+      "id": "p46",
+      "name": "Edu Rock Team",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p47",
+      "name": "SOU Rhythmics",
+      "type": "music",
+      "genre": "hiphop"
+    },
+    {
+      "id": "p48",
+      "name": "Pražský Student Sound",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p49",
+      "name": "Brno Beat Kids",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p50",
+      "name": "Ostrava Jam",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p51",
+      "name": "Liberec Live Class",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p52",
+      "name": "Plzeň Garage",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p53",
+      "name": "Hradec Rock School",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p54",
+      "name": "Olomouc Youth Band",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p55",
+      "name": "Zlín Music Lab",
+      "type": "music",
+      "genre": "rock"
+    },
+    {
+      "id": "p56",
+      "name": "Dance Crew Praha",
+      "type": "dance"
+    },
+    {
+      "id": "p57",
+      "name": "Break Masters",
+      "type": "dance"
+    },
+    {
+      "id": "p58",
+      "name": "Street Dance Academy",
+      "type": "dance"
+    },
+    {
+      "id": "p59",
+      "name": "HipHop Battle Contest",
+      "type": "competition"
+    },
+    {
+      "id": "p60",
+      "name": "Air Guitar Championship",
+      "type": "competition"
+    },
+    {
+      "id": "p61",
+      "name": "Festival Drum Contest",
+      "type": "competition"
+    },
+    {
+      "id": "p62",
+      "name": "Cheerleaders Brno",
+      "type": "dance"
+    },
+    {
+      "id": "p63",
+      "name": "Beatbox Showdown",
+      "type": "competition"
+    },
+    {
+      "id": "p64",
+      "name": "Modern Dance Studio",
+      "type": "dance"
+    },
+    {
+      "id": "p65",
+      "name": "Freestyle Rap Battle",
+      "type": "competition"
+    },
+    {
+      "id": "p66",
+      "name": "Parkour Show Team",
+      "type": "show"
+    },
+    {
+      "id": "p67",
+      "name": "Light Show Crew",
+      "type": "show"
+    },
+    {
+      "id": "p68",
+      "name": "Graffiti Live Art",
+      "type": "show"
+    },
+    {
+      "id": "p69",
+      "name": "Talent Stage Contest",
+      "type": "competition"
+    },
+    {
+      "id": "p70",
+      "name": "Dancehall Explosion",
+      "type": "dance"
+    },
+    {
+      "id": "p71",
+      "name": "Rock Quiz Show",
+      "type": "competition"
+    },
+    {
+      "id": "p72",
+      "name": "Student DJ Contest",
+      "type": "competition"
+    },
+    {
+      "id": "p73",
+      "name": "Acoustic Corner Jam",
+      "type": "music",
+      "genre": "acoustic"
+    },
+    {
+      "id": "p74",
+      "name": "Indie Waves",
+      "type": "music",
+      "genre": "indie"
+    },
+    {
+      "id": "p75",
+      "name": "Electro Hill Project",
+      "type": "music",
+      "genre": "electronic"
+    }
+  ]
+}

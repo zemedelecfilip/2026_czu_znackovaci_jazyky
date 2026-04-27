@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Venue Detail Schema",
+  "type": "object",
+  "required": ["id", "name", "description", "capacity"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^v[0-9]+$" },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "capacity": { "type": "integer", "minimum": 1 }
+  }
+}

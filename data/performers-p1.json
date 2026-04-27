@@ -1,0 +1,22 @@
+{
+  "id": "p1",
+  "name": "Kabát",
+  "type": "music",
+  "genre": "rock",
+  "performances": [
+    {
+      "id": "e3",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "14:00",
+      "end": "15:00",
+      "venueId": "v1",
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    }
+  ]
+}

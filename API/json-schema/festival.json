@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Festival Info Schema",
+  "type": "object",
+  "required": ["id", "name", "year", "location", "dates", "tickets"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "year": { "type": "integer" },
+    "location": {
+      "type": "object",
+      "required": ["country", "address"]
+    },
+    "description": { "type": "string" },
+    "dates": { "type": "object" },
+    "tickets": { "type": "object" },
+    "links": { "type": "object" }
+  }
+}

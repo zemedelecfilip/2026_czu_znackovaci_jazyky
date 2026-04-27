@@ -1,0 +1,21 @@
+{
+  "id": "p56",
+  "name": "Dance Crew Praha",
+  "type": "dance",
+  "performances": [
+    {
+      "id": "e4",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "15:00",
+      "end": "15:20",
+      "venueId": "v2",
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    }
+  ]
+}

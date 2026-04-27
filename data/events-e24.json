@@ -1,0 +1,21 @@
+{
+  "id": "e24",
+  "day": "2026-07-11",
+  "theme": "Rap Day",
+  "start": "13:00",
+  "end": "14:00",
+  "performerId": "p16",
+  "venueId": "v1",
+  "performer": {
+    "id": "p16",
+    "name": "Ektor",
+    "type": "music",
+    "genre": "rap"
+  },
+  "venue": {
+    "id": "v1",
+    "name": "Hlavní Stage",
+    "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+    "capacity": 5000
+  }
+}

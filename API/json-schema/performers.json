@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Performers List Schema",
+  "type": "object",
+  "required": ["page", "pageSize", "totalItems", "totalPages", "items"],
+  "properties": {
+    "page": { "type": "integer" },
+    "pageSize": { "type": "integer" },
+    "totalItems": { "type": "integer" },
+    "totalPages": { "type": "integer" },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "type"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^p[0-9]+$" },
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "genre": { "type": "string" }
+        }
+      }
+    }
+  }
+}

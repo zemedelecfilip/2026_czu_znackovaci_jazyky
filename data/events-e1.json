@@ -1,0 +1,21 @@
+{
+  "id": "e1",
+  "day": "2026-07-10",
+  "theme": "Rock Day",
+  "start": "12:00",
+  "end": "12:40",
+  "performerId": "p26",
+  "venueId": "v2",
+  "performer": {
+    "id": "p26",
+    "name": "SPŠ Rockers",
+    "type": "music",
+    "genre": "rock"
+  },
+  "venue": {
+    "id": "v2",
+    "name": "Aréna na kopečku",
+    "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+    "capacity": 3500
+  }
+}

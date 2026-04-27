@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Performer Detail Schema",
+  "type": "object",
+  "required": ["id", "name", "type", "performances"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "type": { "type": "string" },
+    "genre": { "type": "string" },
+    "performances": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "day", "start", "venueId"],
+        "properties": {
+          "id": { "type": "string" },
+          "day": { "type": "string", "format": "date" },
+          "theme": { "type": "string" },
+          "start": { "type": "string" },
+          "end": { "type": "string" },
+          "venueId": { "type": "string" }
+        }
+      }
+    }
+  }
+}

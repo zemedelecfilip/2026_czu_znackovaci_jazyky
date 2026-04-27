@@ -1,0 +1,1388 @@
+{
+  "page": 1,
+  "pageSize": 66,
+  "totalItems": 66,
+  "totalPages": 1,
+  "filters": {
+    "day": null,
+    "venueId": null,
+    "performerId": null
+  },
+  "items": [
+    {
+      "id": "e1",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "12:00",
+      "end": "12:40",
+      "performerId": "p26",
+      "venueId": "v2",
+      "performer": {
+        "id": "p26",
+        "name": "SPŠ Rockers",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e2",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "13:00",
+      "end": "13:40",
+      "performerId": "p27",
+      "venueId": "v2",
+      "performer": {
+        "id": "p27",
+        "name": "Gympl Band Praha",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e3",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "14:00",
+      "end": "15:00",
+      "performerId": "p1",
+      "venueId": "v1",
+      "performer": {
+        "id": "p1",
+        "name": "Kabát",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e4",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "15:00",
+      "end": "15:20",
+      "performerId": "p56",
+      "venueId": "v2",
+      "performer": {
+        "id": "p56",
+        "name": "Dance Crew Praha",
+        "type": "dance"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e5",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "15:30",
+      "end": "16:30",
+      "performerId": "p2",
+      "venueId": "v1",
+      "performer": {
+        "id": "p2",
+        "name": "Divokej Bill",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e6",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "17:00",
+      "end": "18:00",
+      "performerId": "p3",
+      "venueId": "v1",
+      "performer": {
+        "id": "p3",
+        "name": "Doga",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e7",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "17:00",
+      "end": "17:30",
+      "performerId": "p60",
+      "venueId": "v2",
+      "performer": {
+        "id": "p60",
+        "name": "Air Guitar Championship",
+        "type": "competition"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e8",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "18:30",
+      "end": "19:30",
+      "performerId": "p4",
+      "venueId": "v1",
+      "performer": {
+        "id": "p4",
+        "name": "Harlej",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e9",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "20:00",
+      "end": "21:00",
+      "performerId": "p5",
+      "venueId": "v1",
+      "performer": {
+        "id": "p5",
+        "name": "Škwor",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e10",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "21:30",
+      "end": "22:30",
+      "performerId": "p6",
+      "venueId": "v1",
+      "performer": {
+        "id": "p6",
+        "name": "Wohnout",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e11",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "23:00",
+      "end": "00:00",
+      "performerId": "p7",
+      "venueId": "v1",
+      "performer": {
+        "id": "p7",
+        "name": "Arakain",
+        "type": "music",
+        "genre": "metal"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e12",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "00:15",
+      "end": "01:15",
+      "performerId": "p12",
+      "venueId": "v1",
+      "performer": {
+        "id": "p12",
+        "name": "Tři sestry",
+        "type": "music",
+        "genre": "punk"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e13",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "20:00",
+      "end": "20:30",
+      "performerId": "p71",
+      "venueId": "v2",
+      "performer": {
+        "id": "p71",
+        "name": "Rock Quiz Show",
+        "type": "competition"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e14",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "16:00",
+      "end": "16:40",
+      "performerId": "p28",
+      "venueId": "v2",
+      "performer": {
+        "id": "p28",
+        "name": "SOŠ Beat Crew",
+        "type": "music",
+        "genre": "pop"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e15",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "18:00",
+      "end": "18:40",
+      "performerId": "p29",
+      "venueId": "v2",
+      "performer": {
+        "id": "p29",
+        "name": "Technik Sound",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e16",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "19:00",
+      "end": "19:40",
+      "performerId": "p30",
+      "venueId": "v2",
+      "performer": {
+        "id": "p30",
+        "name": "Učiliště Revival",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e17",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "21:00",
+      "end": "21:40",
+      "performerId": "p31",
+      "venueId": "v2",
+      "performer": {
+        "id": "p31",
+        "name": "Student Noise",
+        "type": "music",
+        "genre": "alternative"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e18",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "22:00",
+      "end": "22:40",
+      "performerId": "p32",
+      "venueId": "v2",
+      "performer": {
+        "id": "p32",
+        "name": "Mladá Vlna",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e19",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "23:00",
+      "end": "23:40",
+      "performerId": "p33",
+      "venueId": "v2",
+      "performer": {
+        "id": "p33",
+        "name": "Garage Band Brno",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e20",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "00:00",
+      "end": "00:40",
+      "performerId": "p34",
+      "venueId": "v2",
+      "performer": {
+        "id": "p34",
+        "name": "Future Beats School",
+        "type": "music",
+        "genre": "hiphop"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e21",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "01:00",
+      "end": "01:40",
+      "performerId": "p35",
+      "venueId": "v2",
+      "performer": {
+        "id": "p35",
+        "name": "Rocková Třída",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e22",
+      "day": "2026-07-10",
+      "theme": "Rock Day",
+      "start": "16:30",
+      "end": "17:30",
+      "performerId": "p8",
+      "venueId": "v1",
+      "performer": {
+        "id": "p8",
+        "name": "Alkehol",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e23",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "12:00",
+      "end": "12:40",
+      "performerId": "p36",
+      "venueId": "v2",
+      "performer": {
+        "id": "p36",
+        "name": "SPŠ Metal Hearts",
+        "type": "music",
+        "genre": "metal"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e24",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "13:00",
+      "end": "14:00",
+      "performerId": "p16",
+      "venueId": "v1",
+      "performer": {
+        "id": "p16",
+        "name": "Ektor",
+        "type": "music",
+        "genre": "rap"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e25",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "14:00",
+      "end": "14:30",
+      "performerId": "p59",
+      "venueId": "v2",
+      "performer": {
+        "id": "p59",
+        "name": "HipHop Battle Contest",
+        "type": "competition"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e26",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "14:30",
+      "end": "15:30",
+      "performerId": "p17",
+      "venueId": "v1",
+      "performer": {
+        "id": "p17",
+        "name": "Rest",
+        "type": "music",
+        "genre": "rap"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e27",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "16:00",
+      "end": "17:00",
+      "performerId": "p18",
+      "venueId": "v1",
+      "performer": {
+        "id": "p18",
+        "name": "Paulie Garand",
+        "type": "music",
+        "genre": "rap"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e28",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "16:00",
+      "end": "16:20",
+      "performerId": "p57",
+      "venueId": "v2",
+      "performer": {
+        "id": "p57",
+        "name": "Break Masters",
+        "type": "dance"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e29",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "17:30",
+      "end": "18:30",
+      "performerId": "p19",
+      "venueId": "v1",
+      "performer": {
+        "id": "p19",
+        "name": "Vladimir 518",
+        "type": "music",
+        "genre": "rap"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e30",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "19:00",
+      "end": "20:00",
+      "performerId": "p22",
+      "venueId": "v1",
+      "performer": {
+        "id": "p22",
+        "name": "Marpo",
+        "type": "music",
+        "genre": "rap"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e31",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "19:00",
+      "end": "19:30",
+      "performerId": "p65",
+      "venueId": "v2",
+      "performer": {
+        "id": "p65",
+        "name": "Freestyle Rap Battle",
+        "type": "competition"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e32",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "20:30",
+      "end": "21:30",
+      "performerId": "p21",
+      "venueId": "v1",
+      "performer": {
+        "id": "p21",
+        "name": "Rytmus CZ Tour",
+        "type": "music",
+        "genre": "rap"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e33",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "22:00",
+      "end": "23:00",
+      "performerId": "p24",
+      "venueId": "v1",
+      "performer": {
+        "id": "p24",
+        "name": "Calin",
+        "type": "music",
+        "genre": "rap"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e34",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "23:30",
+      "end": "00:30",
+      "performerId": "p25",
+      "venueId": "v1",
+      "performer": {
+        "id": "p25",
+        "name": "Separ CZ Live",
+        "type": "music",
+        "genre": "rap"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e35",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "00:45",
+      "end": "01:45",
+      "performerId": "p23",
+      "venueId": "v1",
+      "performer": {
+        "id": "p23",
+        "name": "Refew",
+        "type": "music",
+        "genre": "rap"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e36",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "13:00",
+      "end": "13:40",
+      "performerId": "p37",
+      "venueId": "v2",
+      "performer": {
+        "id": "p37",
+        "name": "Akademie Muzika",
+        "type": "music",
+        "genre": "pop"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e37",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "15:00",
+      "end": "15:40",
+      "performerId": "p38",
+      "venueId": "v2",
+      "performer": {
+        "id": "p38",
+        "name": "Jam Session SOU",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e38",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "17:00",
+      "end": "17:40",
+      "performerId": "p39",
+      "venueId": "v2",
+      "performer": {
+        "id": "p39",
+        "name": "Beatmakers CZU",
+        "type": "music",
+        "genre": "hiphop"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e39",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "18:00",
+      "end": "18:40",
+      "performerId": "p40",
+      "venueId": "v2",
+      "performer": {
+        "id": "p40",
+        "name": "Hudební Gymnázium Band",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e40",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "20:00",
+      "end": "20:40",
+      "performerId": "p41",
+      "venueId": "v2",
+      "performer": {
+        "id": "p41",
+        "name": "Street Sound School",
+        "type": "music",
+        "genre": "hiphop"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e41",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "21:00",
+      "end": "21:40",
+      "performerId": "p42",
+      "venueId": "v2",
+      "performer": {
+        "id": "p42",
+        "name": "Noise Factory",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e42",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "22:00",
+      "end": "22:30",
+      "performerId": "p63",
+      "venueId": "v2",
+      "performer": {
+        "id": "p63",
+        "name": "Beatbox Showdown",
+        "type": "competition"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e43",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "23:00",
+      "end": "23:20",
+      "performerId": "p70",
+      "venueId": "v2",
+      "performer": {
+        "id": "p70",
+        "name": "Dancehall Explosion",
+        "type": "dance"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e44",
+      "day": "2026-07-11",
+      "theme": "Rap Day",
+      "start": "00:00",
+      "end": "00:30",
+      "performerId": "p72",
+      "venueId": "v2",
+      "performer": {
+        "id": "p72",
+        "name": "Student DJ Contest",
+        "type": "competition"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e45",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "12:00",
+      "end": "12:40",
+      "performerId": "p43",
+      "venueId": "v2",
+      "performer": {
+        "id": "p43",
+        "name": "Delta Music Class",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e46",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "13:00",
+      "end": "13:40",
+      "performerId": "p44",
+      "venueId": "v2",
+      "performer": {
+        "id": "p44",
+        "name": "Young Guns Band",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e47",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "14:00",
+      "end": "15:00",
+      "performerId": "p9",
+      "venueId": "v1",
+      "performer": {
+        "id": "p9",
+        "name": "Traktor",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e48",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "14:00",
+      "end": "14:20",
+      "performerId": "p64",
+      "venueId": "v2",
+      "performer": {
+        "id": "p64",
+        "name": "Modern Dance Studio",
+        "type": "dance"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e49",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "15:30",
+      "end": "16:30",
+      "performerId": "p10",
+      "venueId": "v1",
+      "performer": {
+        "id": "p10",
+        "name": "Olympic",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e50",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "17:00",
+      "end": "18:00",
+      "performerId": "p11",
+      "venueId": "v1",
+      "performer": {
+        "id": "p11",
+        "name": "Chinaski",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e51",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "17:00",
+      "end": "17:20",
+      "performerId": "p66",
+      "venueId": "v2",
+      "performer": {
+        "id": "p66",
+        "name": "Parkour Show Team",
+        "type": "show"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e52",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "18:30",
+      "end": "19:30",
+      "performerId": "p13",
+      "venueId": "v1",
+      "performer": {
+        "id": "p13",
+        "name": "Krucipüsk",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e53",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "20:00",
+      "end": "21:00",
+      "performerId": "p14",
+      "venueId": "v1",
+      "performer": {
+        "id": "p14",
+        "name": "Vypsaná fiXa",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e54",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "21:30",
+      "end": "22:30",
+      "performerId": "p15",
+      "venueId": "v1",
+      "performer": {
+        "id": "p15",
+        "name": "Horkýže Slíže CZ Tribute",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v1",
+        "name": "Hlavní Stage",
+        "description": "Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.",
+        "capacity": 5000
+      }
+    },
+    {
+      "id": "e55",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "18:00",
+      "end": "18:40",
+      "performerId": "p73",
+      "venueId": "v2",
+      "performer": {
+        "id": "p73",
+        "name": "Acoustic Corner Jam",
+        "type": "music",
+        "genre": "acoustic"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e56",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "19:00",
+      "end": "19:40",
+      "performerId": "p74",
+      "venueId": "v2",
+      "performer": {
+        "id": "p74",
+        "name": "Indie Waves",
+        "type": "music",
+        "genre": "indie"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e57",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "20:00",
+      "end": "20:40",
+      "performerId": "p75",
+      "venueId": "v2",
+      "performer": {
+        "id": "p75",
+        "name": "Electro Hill Project",
+        "type": "music",
+        "genre": "electronic"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e58",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "21:00",
+      "end": "21:40",
+      "performerId": "p45",
+      "venueId": "v2",
+      "performer": {
+        "id": "p45",
+        "name": "Creative Beats",
+        "type": "music",
+        "genre": "pop"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e59",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "22:00",
+      "end": "22:40",
+      "performerId": "p46",
+      "venueId": "v2",
+      "performer": {
+        "id": "p46",
+        "name": "Edu Rock Team",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e60",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "23:00",
+      "end": "23:40",
+      "performerId": "p47",
+      "venueId": "v2",
+      "performer": {
+        "id": "p47",
+        "name": "SOU Rhythmics",
+        "type": "music",
+        "genre": "hiphop"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e61",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "00:00",
+      "end": "00:40",
+      "performerId": "p48",
+      "venueId": "v2",
+      "performer": {
+        "id": "p48",
+        "name": "Pražský Student Sound",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e62",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "01:00",
+      "end": "01:40",
+      "performerId": "p49",
+      "venueId": "v2",
+      "performer": {
+        "id": "p49",
+        "name": "Brno Beat Kids",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e63",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "16:00",
+      "end": "16:40",
+      "performerId": "p50",
+      "venueId": "v2",
+      "performer": {
+        "id": "p50",
+        "name": "Ostrava Jam",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e64",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "15:00",
+      "end": "15:40",
+      "performerId": "p51",
+      "venueId": "v2",
+      "performer": {
+        "id": "p51",
+        "name": "Liberec Live Class",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e65",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "13:45",
+      "end": "14:25",
+      "performerId": "p52",
+      "venueId": "v2",
+      "performer": {
+        "id": "p52",
+        "name": "Plzeň Garage",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    },
+    {
+      "id": "e66",
+      "day": "2026-07-12",
+      "theme": "Open Mix Day",
+      "start": "22:45",
+      "end": "23:25",
+      "performerId": "p53",
+      "venueId": "v2",
+      "performer": {
+        "id": "p53",
+        "name": "Hradec Rock School",
+        "type": "music",
+        "genre": "rock"
+      },
+      "venue": {
+        "id": "v2",
+        "name": "Aréna na kopečku",
+        "description": "Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.",
+        "capacity": 3500
+      }
+    }
+  ]
+}

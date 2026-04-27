@@ -1,0 +1,750 @@
+openapi: 3.1.0
+info:
+  title: Drumce Na Kopečku API
+  version: 1.0.0
+  description: GET-only REST API pro festival Drumce Na Kopečku 2026. Specifikace
+    navazuje na data z festival.xml a na JSON výstupy určené pro transformaci.
+servers:
+- url: http://localhost:8000
+  description: Lokální vývojový server
+- url: https://example.com
+  description: Produkční ukázkový server
+
+paths:
+  /api/festival:
+    get:
+      tags:
+      - Festival
+      summary: Vrátí identitu festivalu, termíny, vstupenky a odkazy
+      responses:
+        '200':
+          description: Festival metadata
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FestivalResponse'
+              example:
+                id: drumce-na-kopecku-2026
+                name: Drumce Na Kopečku
+                year: 2026
+                location:
+                  country: Česká republika
+                  venueArea: areál ČZU
+                  address: Kamýcká 129, 165 00 Praha-Suchdol
+                description: Třídenní open-air hudební festival zaměřený na českou hudební scénu, propojující rock, rap a mladé talenty ze středních škol, učilišť a hudebních akademií.
+                dates:
+                  start: '2026-07-10'
+                  end: '2026-07-12'
+                  days:
+                  - date: '2026-07-10'
+                    theme: Rock Day
+                  - date: '2026-07-11'
+                    theme: Rap Day
+                  - date: '2026-07-12'
+                    theme: Open Mix Day
+                tickets:
+                  currency: CZK
+                  categories:
+                  - code: full-pass
+                    name: Full Festival Pass
+                    price: 1490
+                    validFrom: '2026-07-10'
+                    validTo: '2026-07-12'
+                  - code: day-pass-friday
+                    name: Pátek / Rock Day
+                    price: 690
+                    validFrom: '2026-07-10'
+                    validTo: '2026-07-10'
+                  - code: day-pass-saturday
+                    name: Sobota / Rap Day
+                    price: 690
+                    validFrom: '2026-07-11'
+                    validTo: '2026-07-11'
+                  - code: day-pass-sunday
+                    name: Neděle / Open Mix Day
+                    price: 590
+                    validFrom: '2026-07-12'
+                    validTo: '2026-07-12'
+                links:
+                  self: /api/festival
+                  venues: /api/venues
+                  performers: /api/performers
+                  events: /api/events
+                  website: /index.html
+                  program: /program.html
+                  info: /prakticke_informace.html
+                  tickets: /tickets.html
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/venues:
+    get:
+      tags:
+      - Venues
+      summary: Vrátí seznam festivalových scén
+      responses:
+        '200':
+          description: Seznam scén
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VenuesResponse'
+              example:
+                count: 2
+                items:
+                - id: v1
+                  name: Hlavní Stage
+                  description: Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.
+                  capacity: 5000
+                - id: v2
+                  name: Aréna na kopečku
+                  description: Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.
+                  capacity: 3500
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/venues/{id}:
+    get:
+      tags:
+      - Venues
+      summary: Vrátí detail jedné scény
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: Identifikátor scény
+        schema:
+          type: string
+          pattern: ^v[0-9]+$
+        example: v1
+      responses:
+        '200':
+          description: Detail scény
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Venue'
+              example:
+                id: v1
+                name: Hlavní Stage
+                description: Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.
+                capacity: 5000
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/performers:
+    get:
+      tags:
+      - Performers
+      summary: Vrátí seznam účinkujících
+      parameters:
+      - name: page
+        in: query
+        required: false
+        description: Číslo stránky
+        schema:
+          type: integer
+          minimum: 1
+          default: 1
+        example: 1
+      - name: pageSize
+        in: query
+        required: false
+        description: Počet položek na stránku
+        schema:
+          type: integer
+          minimum: 1
+          maximum: 100
+          default: 20
+        example: 20
+      responses:
+        '200':
+          description: Stránkovaný seznam účinkujících
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PerformersResponse'
+              example:
+                page: 1
+                pageSize: 3
+                totalItems: 75
+                totalPages: 25
+                items:
+                - id: p1
+                  name: Kabát
+                  type: music
+                  genre: rock
+                - id: p16
+                  name: Ektor
+                  type: music
+                  genre: rap
+                - id: p56
+                  name: Dance Crew Praha
+                  type: dance
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/performers/{id}:
+    get:
+      tags:
+      - Performers
+      summary: Vrátí detail jednoho účinkujícího
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: Identifikátor účinkujícího
+        schema:
+          type: string
+          pattern: ^p[0-9]+$
+        example: p1
+      responses:
+        '200':
+          description: Detail účinkujícího
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PerformerDetail'
+              example:
+                id: p1
+                name: Kabát
+                type: music
+                genre: rock
+                performances:
+                - id: e3
+                  day: '2026-07-10'
+                  theme: Rock Day
+                  start: '14:00'
+                  end: '15:00'
+                  venueId: v1
+                  venue:
+                    id: v1
+                    name: Hlavní Stage
+                    description: Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.
+                    capacity: 5000
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/events:
+    get:
+      tags:
+      - Events
+      summary: Vrátí program festivalu
+      parameters:
+      - name: day
+        in: query
+        required: false
+        description: Filtr podle dne ve formátu YYYY-MM-DD
+        schema:
+          type: string
+          format: date
+        example: '2026-07-10'
+      - name: venueId
+        in: query
+        required: false
+        description: Filtr podle scény
+        schema:
+          type: string
+          pattern: ^v[0-9]+$
+        example: v1
+      - name: performerId
+        in: query
+        required: false
+        description: Filtr podle účinkujícího
+        schema:
+          type: string
+          pattern: ^p[0-9]+$
+        example: p1
+      - name: page
+        in: query
+        required: false
+        description: Číslo stránky
+        schema:
+          type: integer
+          minimum: 1
+          default: 1
+        example: 1
+      - name: pageSize
+        in: query
+        required: false
+        description: Počet položek na stránku
+        schema:
+          type: integer
+          minimum: 1
+          maximum: 100
+          default: 20
+        example: 20
+      responses:
+        '200':
+          description: Stránkovaný seznam událostí
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EventsResponse'
+              example:
+                page: 1
+                pageSize: 3
+                totalItems: 66
+                totalPages: 22
+                filters:
+                  day: '2026-07-10'
+                  venueId: v1
+                  performerId: null
+                items:
+                - id: e3
+                  day: '2026-07-10'
+                  theme: Rock Day
+                  start: '14:00'
+                  end: '15:00'
+                  performerId: p1
+                  venueId: v1
+                  performer:
+                    id: p1
+                    name: Kabát
+                    type: music
+                    genre: rock
+                  venue:
+                    id: v1
+                    name: Hlavní Stage
+                    description: Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.
+                    capacity: 5000
+                - id: e22
+                  day: '2026-07-10'
+                  theme: Rock Day
+                  start: '16:30'
+                  end: '17:30'
+                  performerId: p8
+                  venueId: v1
+                  performer:
+                    id: p8
+                    name: Alkehol
+                    type: music
+                    genre: rock
+                  venue:
+                    id: v1
+                    name: Hlavní Stage
+                    description: Největší festivalová scéna umístěná na vrcholu kopce s panoramatickým výhledem na ČVUT.
+                    capacity: 5000
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/events/{id}:
+    get:
+      tags:
+      - Events
+      summary: Vrátí detail jedné události programu
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: Identifikátor události
+        schema:
+          type: string
+          pattern: ^e[0-9]+$
+        example: e1
+      responses:
+        '200':
+          description: Detail události
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Event'
+              example:
+                id: e1
+                day: '2026-07-10'
+                theme: Rock Day
+                start: '12:00'
+                end: '12:40'
+                performerId: p26
+                venueId: v2
+                performer:
+                  id: p26
+                  name: SPŠ Rockers
+                  type: music
+                  genre: rock
+                venue:
+                  id: v2
+                  name: Aréna na kopečku
+                  description: Druhá největší scéna festivalu určená pro malé kapely, taneční vystoupení a soutěže.
+                  capacity: 3500
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+components:
+  responses:
+    BadRequest:
+      description: Chybný požadavek (např. špatné parametry)
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error: Bad Request
+            message: Invalid query parameter value.
+            status: 400
+    NotFound:
+      description: Zdroj nebyl nalezen
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error: Not Found
+            message: Requested resource was not found.
+            status: 404
+
+  schemas:
+    Error:
+      type: object
+      required:
+      - error
+      - message
+      - status
+      properties:
+        error:
+          type: string
+        message:
+          type: string
+        status:
+          type: integer
+          
+    FestivalResponse:
+      type: object
+      required:
+      - id
+      - name
+      - year
+      - location
+      - description
+      - dates
+      - tickets
+      - links
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        year:
+          type: integer
+        location:
+          $ref: '#/components/schemas/FestivalLocation'
+        description:
+          type: string
+        dates:
+          $ref: '#/components/schemas/FestivalDates'
+        tickets:
+          $ref: '#/components/schemas/TicketInfo'
+        links:
+          $ref: '#/components/schemas/FestivalLinks'
+          
+    FestivalLocation:
+      type: object
+      required:
+      - country
+      - venueArea
+      - address
+      properties:
+        country:
+          type: string
+        venueArea:
+          type: string
+        address:
+          type: string
+          
+    FestivalDates:
+      type: object
+      required:
+      - start
+      - end
+      - days
+      properties:
+        start:
+          type: string
+          format: date
+        end:
+          type: string
+          format: date
+        days:
+          type: array
+          items:
+            $ref: '#/components/schemas/FestivalDay'
+            
+    FestivalDay:
+      type: object
+      required:
+      - date
+      - theme
+      properties:
+        date:
+          type: string
+          format: date
+        theme:
+          type: string
+          
+    TicketInfo:
+      type: object
+      required:
+      - currency
+      - categories
+      properties:
+        currency:
+          type: string
+        categories:
+          type: array
+          items:
+            $ref: '#/components/schemas/TicketCategory'
+            
+    TicketCategory:
+      type: object
+      required:
+      - code
+      - name
+      - price
+      - validFrom
+      - validTo
+      properties:
+        code:
+          type: string
+        name:
+          type: string
+        price:
+          type: number
+        validFrom:
+          type: string
+          format: date
+        validTo:
+          type: string
+          format: date
+          
+    FestivalLinks:
+      type: object
+      required:
+      - self
+      - venues
+      - performers
+      - events
+      - website
+      - program
+      - info
+      - tickets
+      properties:
+        self:
+          type: string
+        venues:
+          type: string
+        performers:
+          type: string
+        events:
+          type: string
+        website:
+          type: string
+        program:
+          type: string
+        info:
+          type: string
+        tickets:
+          type: string
+          
+    VenuesResponse:
+      type: object
+      required:
+      - count
+      - items
+      properties:
+        count:
+          type: integer
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/Venue'
+            
+    Venue:
+      type: object
+      required:
+      - id
+      - name
+      - description
+      - capacity
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        capacity:
+          type: integer
+          
+    PerformersResponse:
+      type: object
+      required:
+      - page
+      - pageSize
+      - totalItems
+      - totalPages
+      - items
+      properties:
+        page:
+          type: integer
+        pageSize:
+          type: integer
+        totalItems:
+          type: integer
+        totalPages:
+          type: integer
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/Performer'
+            
+    Performer:
+      type: object
+      required:
+      - id
+      - name
+      - type
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        type:
+          type: string
+        genre:
+          type: string
+          
+    PerformerDetail:
+      allOf:
+      - $ref: '#/components/schemas/Performer'
+      - type: object
+        required:
+        - performances
+        properties:
+          performances:
+            type: array
+            items:
+              $ref: '#/components/schemas/PerformanceSlot'
+              
+    PerformanceSlot:
+      type: object
+      required:
+      - id
+      - day
+      - theme
+      - start
+      - end
+      - venueId
+      - venue
+      properties:
+        id:
+          type: string
+        day:
+          type: string
+          format: date
+        theme:
+          type: string
+        start:
+          type: string
+          pattern: ^([01]\d|2[0-3]):[0-5]\d$
+        end:
+          type: string
+          pattern: ^([01]\d|2[0-3]):[0-5]\d$
+        venueId:
+          type: string
+        venue:
+          $ref: '#/components/schemas/Venue'
+          
+    EventsResponse:
+      type: object
+      required:
+      - page
+      - pageSize
+      - totalItems
+      - totalPages
+      - filters
+      - items
+      properties:
+        page:
+          type: integer
+        pageSize:
+          type: integer
+        totalItems:
+          type: integer
+        totalPages:
+          type: integer
+        filters:
+          $ref: '#/components/schemas/EventFilters'
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/Event'
+            
+    EventFilters:
+      type: object
+      required:
+      - day
+      - venueId
+      - performerId
+      properties:
+        day:
+          type:
+          - string
+          - 'null'
+          format: date
+        venueId:
+          type:
+          - string
+          - 'null'
+        performerId:
+          type:
+          - string
+          - 'null'
+          
+    Event:
+      type: object
+      required:
+      - id
+      - day
+      - theme
+      - start
+      - end
+      - performerId
+      - venueId
+      - performer
+      - venue
+      properties:
+        id:
+          type: string
+        day:
+          type: string
+          format: date
+        theme:
+          type: string
+        start:
+          type: string
+          pattern: ^([01]\d|2[0-3]):[0-5]\d$
+        end:
+          type: string
+          pattern: ^([01]\d|2[0-3]):[0-5]\d$
+        performerId:
+          type: string
+        venueId:
+          type: string
+        performer:
+          $ref: '#/components/schemas/Performer'
+        venue:
+          $ref: '#/components/schemas/Venue'

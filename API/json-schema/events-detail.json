@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Event Detail Schema",
+  "type": "object",
+  "required": ["id", "day", "start", "performerId", "venueId", "performer", "venue"],
+  "properties": {
+    "id": { "type": "string" },
+    "day": { "type": "string" },
+    "theme": { "type": "string" },
+    "start": { "type": "string" },
+    "end": { "type": "string" },
+    "performerId": { "type": "string" },
+    "venueId": { "type": "string" },
+    "performer": { "type": "object" },
+    "venue": { "type": "object" }
+  }
+}
